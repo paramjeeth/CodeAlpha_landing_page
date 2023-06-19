@@ -1,0 +1,46 @@
+body {
+    background-image: url('https://assets.entrepreneur.com/content/3x2/2000/20191127190639-shutterstock-431848417-crop.jpeg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    background-color: #fff;
+
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
